@@ -1,0 +1,96 @@
+//1
+db.customers.find();
+//2
+db.products.find();
+//3
+db.orders.find();
+//4
+db.customers.find({city:"Hyderabad"});
+//5
+db.products.find({category:"Electronics"});
+//6
+db.orders.find({status:"Delivered"});
+//7
+db.products.find({price:{$gt:30000}});
+//8
+db.products.find({$and:[{price:{$gt:10000}},{price:{$lt:50000}}]});
+//9
+db.customers.find({age:{$gt:26}});
+//10
+db.orders.find({quantity:{$gt:1}});
+//11
+db.products.find({stock:{$lte:10}});
+//12
+db.orders.find({status:{$ne:"Cancelled"}});
+//13
+db.customers.find({$or:[{city:"Hyderabad"},{city:"Mumbai"}]});
+//14
+db.customers.find({}, {name:1,city:1,_id:0});
+//15
+db.products.find({}, {name:1,category:1,price:1,_id:0});
+//16
+db.orders.find({}, {order_id:1,quantity:1,status:1,_id:0});
+//17
+db.products.find().sort({price:1});
+//18
+db.products.find().sort({price:-1});
+//19
+db.products.find().sort({price:-1}).limit(3);
+//20
+db.products.find().sort({price:1}).limit(2);
+//21
+db.products.find().skip(2);
+//22
+db.customers.find().sort({age:-1});
+//23
+db.products.updateOne({name:"Laptop"},{$set:{price:78000}});
+//24
+db.products.updateMany({category:"Electronics"},{$set:{discount:10}});
+//25
+db.orders.updateMany({status:"Pending"},{$set:{priority:"High"}});
+//26
+db.customers.updateOne({name:"Meera"},{$set:{membership:"Silver"}});
+//27
+db.products.deleteOne({name:"Printer"});
+//28
+db.products.deleteMany({category:"Furniture"});
+//29
+db.orders.deleteMany({status:"Cancelled"});
+//30
+db.customers.countDocuments();
+//31
+db.products.countDocuments({category:"Electronics"});
+//32
+db.orders.countDocuments({status:"Delivered"});
+//33
+db.customers.countDocuments({city:"Hyderabad"});
+//34
+db.products.aggregate([{$group:{_id:"$category",totalStock:{$sum:"$stock"}}}]);
+//35
+db.products.aggregate([{$group:{_id:"$category",avgPrice:{$avg:"$price"}}}]);
+//36
+db.products.aggregate([{$group:{_id:null,max_price:{$max:"$price"}}}]);
+//37
+db.products.aggregate([{$group:{_id:null,min_price:{$min:"$price"}}}]);
+//38
+db.products.aggregate([{$group:{_id:null,totalValue:{$sum:{$multiply:["$price","$stock"]}}}}]);
+//39
+db.orders.aggregate([{$group:{_id:"$product_id",totalQty:{$sum:"$quantity"}}}]);
+//40
+db.orders.aggregate([{$group:{_id:"$customer_id",totalQty:{$sum:"$quantity"}}}]);
+//41
+db.orders.aggregate([{$lookup:{from:"customers",localField:"customer_id",foreignField:"customer_id",as:"customer"}}]);
+//42
+db.orders.aggregate([{$lookup:{from:"products",localField:"product_id",foreignField:"product_id",as:"product"}}]);
+//43
+db.orders.aggregate([{$lookup:{from:"customers",localField:"customer_id",foreignField:"customer_id",as:"customer"}},
+    {$unwind:"$customer"},
+    {$lookup:{from:"products",localField:"product_id",foreignField:"product_id",as:"prod"}},
+    {$unwind:"$prod"},
+    {$project:{_id:0,customer_name:"$customer.name",product_name:"$prod.name"}}]);
+//44
+db.orders.aggregate([{$lookup:{from:"customers",localField:"customer_id",foreignField:"customer_id",as:"cust"}},
+    {$unwind:"$cust"},
+    {$lookup:{from:"products",localField:"product_id",foreignField:"product_id",as:"prod"}},
+    {$unwind:"$prod"},
+    {$project:{_id:0,customer_name:"$cust.name",city:"$cust.city",product_name:"$prod.name",quantity:1,status:1}}]);
