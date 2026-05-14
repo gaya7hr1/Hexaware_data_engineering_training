@@ -1,0 +1,78 @@
+log_id,device_id,device_name,room_id,room_name,energy_kwh,timestamp,status
+1,D001,Air Conditioner,R001,Living Room,1.82,2025-04-01 00:00:00,active
+2,D002,Refrigerator,R002,Kitchen,0.45,2025-04-01 01:00:00,active
+3,D003,Washing Machine,R003,Utility Room,0.91,2025-04-01 02:00:00,idle
+4,D004,Television,R001,Living Room,0.12,2025-04-01 03:00:00,active
+5,D005,Microwave,R002,Kitchen,0.08,2025-04-01 04:00:00,idle
+6,D006,Water Heater,R004,Bathroom,1.20,2025-04-01 05:00:00,active
+7,D007,Dishwasher,R002,Kitchen,0.65,2025-04-01 06:00:00,idle
+8,D008,Laptop Charger,R005,Bedroom,0.05,2025-04-01 07:00:00,active
+9,D009,Ceiling Fan,R001,Living Room,0.07,2025-04-01 08:00:00,active
+10,D010,Room Heater,R005,Bedroom,1.50,2025-04-01 09:00:00,active
+11,D001,Air Conditioner,R001,Living Room,1.90,2025-04-01 10:00:00,active
+12,D002,Refrigerator,R002,Kitchen,0.44,2025-04-01 11:00:00,active
+13,D003,Washing Machine,R003,Utility Room,0.87,2025-04-01 12:00:00,active
+14,D004,Television,R001,Living Room,0.15,2025-04-01 13:00:00,active
+15,D005,Microwave,R002,Kitchen,0.11,2025-04-01 14:00:00,active
+16,D006,Water Heater,R004,Bathroom,1.10,2025-04-01 15:00:00,idle
+17,D007,Dishwasher,R002,Kitchen,0.70,2025-04-01 16:00:00,active
+18,D008,Laptop Charger,R005,Bedroom,0.06,2025-04-01 17:00:00,active
+19,D009,Ceiling Fan,R001,Living Room,0.07,2025-04-01 18:00:00,active
+20,D010,Room Heater,R005,Bedroom,1.45,2025-04-01 19:00:00,active
+21,D001,Air Conditioner,R001,Living Room,2.10,2025-04-02 00:00:00,active
+22,D002,Refrigerator,R002,Kitchen,0.46,2025-04-02 01:00:00,active
+23,D003,Washing Machine,R003,Utility Room,0.00,2025-04-02 02:00:00,idle
+24,D004,Television,R001,Living Room,0.14,2025-04-02 03:00:00,active
+25,D005,Microwave,R002,Kitchen,0.09,2025-04-02 04:00:00,idle
+26,D006,Water Heater,R004,Bathroom,1.30,2025-04-02 05:00:00,active
+27,D007,Dishwasher,R002,Kitchen,0.00,2025-04-02 06:00:00,idle
+28,D008,Laptop Charger,R005,Bedroom,0.04,2025-04-02 07:00:00,active
+29,D009,Ceiling Fan,R001,Living Room,0.08,2025-04-02 08:00:00,active
+30,D010,Room Heater,R005,Bedroom,1.55,2025-04-02 09:00:00,active
+31,D001,Air Conditioner,R001,Living Room,1.75,2025-04-02 10:00:00,active
+32,D002,Refrigerator,R002,Kitchen,0.43,2025-04-02 11:00:00,active
+33,D003,Washing Machine,R003,Utility Room,0.95,2025-04-02 12:00:00,active
+34,D004,Television,R001,Living Room,0.13,2025-04-02 13:00:00,idle
+35,D005,Microwave,R002,Kitchen,0.10,2025-04-02 14:00:00,active
+36,D006,Water Heater,R004,Bathroom,1.15,2025-04-02 15:00:00,active
+37,D007,Dishwasher,R002,Kitchen,0.68,2025-04-02 16:00:00,active
+38,D008,Laptop Charger,R005,Bedroom,0.05,2025-04-02 17:00:00,active
+39,D009,Ceiling Fan,R001,Living Room,0.06,2025-04-02 18:00:00,active
+40,D010,Room Heater,R005,Bedroom,1.48,2025-04-02 19:00:00,active
+41,D001,Air Conditioner,R001,Living Room,1.95,2025-04-03 00:00:00,active
+42,D002,Refrigerator,R002,Kitchen,0.47,2025-04-03 01:00:00,active
+43,D004,Television,R001,Living Room,0.11,2025-04-03 02:00:00,idle
+44,D005,Microwave,R002,Kitchen,0.12,2025-04-03 03:00:00,active
+45,D006,Water Heater,R004,Bathroom,1.25,2025-04-03 04:00:00,active
+46,D008,Laptop Charger,R005,Bedroom,0.05,2025-04-03 05:00:00,active
+47,D009,Ceiling Fan,R001,Living Room,0.07,2025-04-03 06:00:00,active
+48,D010,Room Heater,R005,Bedroom,1.60,2025-04-03 07:00:00,active
+49,D001,Air Conditioner,R001,Living Room,2.20,2025-04-03 08:00:00,active
+50,D002,Refrigerator,R002,Kitchen,0.44,2025-04-03 09:00:00,active
+51,D003,Washing Machine,R003,Utility Room,0.88,2025-04-03 10:00:00,active
+52,D004,Television,R001,Living Room,0.16,2025-04-03 11:00:00,active
+53,D006,Water Heater,R004,Bathroom,1.18,2025-04-03 12:00:00,active
+54,D007,Dishwasher,R002,Kitchen,0.72,2025-04-03 13:00:00,active
+55,D001,Air Conditioner,R001,Living Room,1.88,2025-04-04 00:00:00,active
+56,D002,Refrigerator,R002,Kitchen,0.45,2025-04-04 01:00:00,active
+57,D004,Television,R001,Living Room,0.13,2025-04-04 02:00:00,active
+58,D005,Microwave,R002,Kitchen,0.09,2025-04-04 03:00:00,idle
+59,D006,Water Heater,R004,Bathroom,1.22,2025-04-04 04:00:00,active
+60,D008,Laptop Charger,R005,Bedroom,0.06,2025-04-04 05:00:00,active
+61,D009,Ceiling Fan,R001,Living Room,0.08,2025-04-04 06:00:00,active
+62,D010,Room Heater,R005,Bedroom,1.52,2025-04-04 07:00:00,active
+63,D001,Air Conditioner,R001,Living Room,2.05,2025-04-04 08:00:00,active
+64,D003,Washing Machine,R003,Utility Room,0.92,2025-04-04 09:00:00,active
+65,D007,Dishwasher,R002,Kitchen,0.67,2025-04-04 10:00:00,active
+66,D001,Air Conditioner,R001,Living Room,1.70,2025-04-05 00:00:00,idle
+67,D002,Refrigerator,R002,Kitchen,0.46,2025-04-05 01:00:00,active
+68,D004,Television,R001,Living Room,0.14,2025-04-05 02:00:00,active
+69,D006,Water Heater,R004,Bathroom,1.28,2025-04-05 03:00:00,active
+70,D008,Laptop Charger,R005,Bedroom,0.04,2025-04-05 04:00:00,active
+71,D010,Room Heater,R005,Bedroom,1.58,2025-04-05 05:00:00,active
+72,D001,Air Conditioner,R001,Living Room,2.15,2025-04-05 06:00:00,active
+73,D002,Refrigerator,R002,Kitchen,0.43,2025-04-05 07:00:00,active
+74,D003,Washing Machine,R003,Utility Room,0.90,2025-04-05 08:00:00,active
+75,D005,Microwave,R002,Kitchen,0.10,2025-04-05 09:00:00,active
+76,D007,Dishwasher,R002,Kitchen,0.69,2025-04-05 10:00:00,idle
+77,D009,Ceiling Fan,R001,Living Room,0.07,2025-04-05 11:00:00,active

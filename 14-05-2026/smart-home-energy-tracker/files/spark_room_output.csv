@@ -1,0 +1,6 @@
+room_id,room_name,total_kwh,avg_kwh,num_logs
+R001,Living Room,21.08,0.843,25
+R005,Bedroom,11.03,0.788,14
+R004,Bathroom,9.68,1.21,8
+R002,Kitchen,8.83,0.384,23
+R003,Utility Room,5.43,0.776,7

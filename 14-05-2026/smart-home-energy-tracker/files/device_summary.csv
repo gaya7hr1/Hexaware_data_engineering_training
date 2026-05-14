@@ -1,0 +1,11 @@
+device_id,device_name,total_kwh,avg_kwh,num_logs
+D001,Air Conditioner,19.5,1.95,10
+D010,Room Heater,10.68,1.526,7
+D006,Water Heater,9.68,1.21,8
+D003,Washing Machine,5.43,0.776,7
+D007,Dishwasher,4.11,0.587,7
+D002,Refrigerator,4.03,0.448,9
+D004,Television,1.08,0.135,8
+D005,Microwave,0.69,0.099,7
+D009,Ceiling Fan,0.5,0.071,7
+D008,Laptop Charger,0.35,0.05,7
