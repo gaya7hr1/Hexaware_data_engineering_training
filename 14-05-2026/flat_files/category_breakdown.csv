@@ -1,0 +1,21 @@
+user_name,month,category,total_spent
+Alice Johnson,2025-02,Food,200.0
+Alice Johnson,2025-02,Utilities,130.0
+Alice Johnson,2025-03,Food,160.0
+Alice Johnson,2025-03,Transport,50.0
+Alice Johnson,2025-03,Utilities,115.0
+Alice Johnson,2025-04,Entertainment,30.0
+Alice Johnson,2025-04,Food,285.5
+Alice Johnson,2025-04,Health,75.0
+Alice Johnson,2025-04,Transport,45.0
+Alice Johnson,2025-04,Utilities,120.0
+Bob Smith,2025-02,Food,85.0
+Bob Smith,2025-02,Transport,40.0
+Bob Smith,2025-03,Entertainment,25.0
+Bob Smith,2025-03,Food,95.0
+Bob Smith,2025-03,Health,50.0
+Bob Smith,2025-04,Entertainment,15.0
+Bob Smith,2025-04,Food,110.0
+Bob Smith,2025-04,Health,200.0
+Bob Smith,2025-04,Transport,60.0
+Bob Smith,2025-04,Utilities,90.0

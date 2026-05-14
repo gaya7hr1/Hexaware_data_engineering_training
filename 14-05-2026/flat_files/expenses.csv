@@ -1,0 +1,25 @@
+expense_id,user_id,user_name,category,amount,expense_date,description
+1,1,Alice Johnson,Food,$150.00,2025-04-02,Grocery shopping
+2,1,Alice Johnson,Transport,$45.00,2025-04-05,Monthly bus pass
+3,1,Alice Johnson,Utilities,$120.00,2025-04-10,Electricity bill
+4,1,Alice Johnson,Entertainment,$30.00,2025-04-15,Netflix subscription
+5,1,Alice Johnson,Food,$80.00,2025-04-20,Restaurant dinner
+6,1,Alice Johnson,Health,$75.00,2025-04-28,Gym membership
+7,2,Bob Smith,Transport,$60.00,2025-04-03,Cab rides
+8,2,Bob Smith,Health,$200.00,2025-04-08,Doctor visit
+9,2,Bob Smith,Food,$110.00,2025-04-12,Weekly groceries
+10,2,Bob Smith,Entertainment,$15.00,2025-04-18,Movie tickets
+11,2,Bob Smith,Utilities,$90.00,2025-04-25,Internet bill
+12,1,Alice Johnson,Food,160.00,2025-03-05,March groceries
+13,1,Alice Johnson,Transport,50.00,2025-03-10,Cab fare
+14,1,Alice Johnson,Utilities,115.00,2025-03-15,Water and electricity
+15,2,Bob Smith,Food,95.00,2025-03-08,Supermarket
+16,2,Bob Smith,Health,50.00,2025-03-20,Pharmacy
+17,2,Bob Smith,Entertainment,25.00,2025-03-25,Streaming service
+18,1,Alice Johnson,Food,$200.00,2025-02-10,Bulk grocery
+19,1,Alice Johnson,Utilities,$130.00,2025-02-18,Electricity bill
+20,2,Bob Smith,Transport,$40.00,2025-02-05,Metro pass
+21,2,Bob Smith,Food,$85.00,2025-02-14,Grocery
+22,1,Alice Johnson,Entertainment,,2025-04-22,Missing amount entry
+23,2,Bob Smith,Food,$abc,2025-04-27,Corrupted amount
+24,1,Alice Johnson,Food,$55.50,04-30-2025,Non-standard date format

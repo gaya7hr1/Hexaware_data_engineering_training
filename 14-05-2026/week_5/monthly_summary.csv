@@ -1,0 +1,7 @@
+user_id,user_name,month,total_spending,num_transactions,avg_transaction,estimated_savings,savings_status,alert
+1,Alice Johnson,2025-02,330.0,2,165.0,49670.0,GOOD SAVINGS ✓,NORMAL 🟢
+1,Alice Johnson,2025-03,325.0,3,108.33,49675.0,GOOD SAVINGS ✓,NORMAL 🟢
+1,Alice Johnson,2025-04,555.5,7,79.36,49444.5,GOOD SAVINGS ✓,HIGH SPENDING ALERT 🔴
+2,Bob Smith,2025-02,125.0,2,62.5,49875.0,GOOD SAVINGS ✓,NORMAL 🟢
+2,Bob Smith,2025-03,170.0,3,56.67,49830.0,GOOD SAVINGS ✓,NORMAL 🟢
+2,Bob Smith,2025-04,475.0,5,95.0,49525.0,GOOD SAVINGS ✓,NORMAL 🟢

@@ -1,0 +1,7 @@
+user_name,month,total_spent,num_transactions,avg_transaction,max_single_expense
+Alice Johnson,2025-02,330.0,2,165.0,200.0
+Alice Johnson,2025-03,325.0,3,108.33,160.0
+Alice Johnson,2025-04,555.5,7,79.36,150.0
+Bob Smith,2025-02,125.0,2,62.5,85.0
+Bob Smith,2025-03,170.0,3,56.67,95.0
+Bob Smith,2025-04,475.0,5,95.0,200.0

@@ -1,0 +1,21 @@
+user_id,user_name,month,category,category_total
+1,Alice Johnson,2025-02,Food,200.0
+1,Alice Johnson,2025-02,Utilities,130.0
+1,Alice Johnson,2025-03,Food,160.0
+1,Alice Johnson,2025-03,Transport,50.0
+1,Alice Johnson,2025-03,Utilities,115.0
+1,Alice Johnson,2025-04,Entertainment,30.0
+1,Alice Johnson,2025-04,Food,285.5
+1,Alice Johnson,2025-04,Health,75.0
+1,Alice Johnson,2025-04,Transport,45.0
+1,Alice Johnson,2025-04,Utilities,120.0
+2,Bob Smith,2025-02,Food,85.0
+2,Bob Smith,2025-02,Transport,40.0
+2,Bob Smith,2025-03,Entertainment,25.0
+2,Bob Smith,2025-03,Food,95.0
+2,Bob Smith,2025-03,Health,50.0
+2,Bob Smith,2025-04,Entertainment,15.0
+2,Bob Smith,2025-04,Food,110.0
+2,Bob Smith,2025-04,Health,200.0
+2,Bob Smith,2025-04,Transport,60.0
+2,Bob Smith,2025-04,Utilities,90.0

@@ -1,0 +1,23 @@
+expense_id,user_id,user_name,category,amount,expense_date,description,month
+1,1,Alice Johnson,Food,150.0,2025-04-02,Grocery shopping,2025-04
+2,1,Alice Johnson,Transport,45.0,2025-04-05,Monthly bus pass,2025-04
+3,1,Alice Johnson,Utilities,120.0,2025-04-10,Electricity bill,2025-04
+4,1,Alice Johnson,Entertainment,30.0,2025-04-15,Netflix subscription,2025-04
+5,1,Alice Johnson,Food,80.0,2025-04-20,Restaurant dinner,2025-04
+6,1,Alice Johnson,Health,75.0,2025-04-28,Gym membership,2025-04
+7,2,Bob Smith,Transport,60.0,2025-04-03,Cab rides,2025-04
+8,2,Bob Smith,Health,200.0,2025-04-08,Doctor visit,2025-04
+9,2,Bob Smith,Food,110.0,2025-04-12,Weekly groceries,2025-04
+10,2,Bob Smith,Entertainment,15.0,2025-04-18,Movie tickets,2025-04
+11,2,Bob Smith,Utilities,90.0,2025-04-25,Internet bill,2025-04
+12,1,Alice Johnson,Food,160.0,2025-03-05,March groceries,2025-03
+13,1,Alice Johnson,Transport,50.0,2025-03-10,Cab fare,2025-03
+14,1,Alice Johnson,Utilities,115.0,2025-03-15,Water and electricity,2025-03
+15,2,Bob Smith,Food,95.0,2025-03-08,Supermarket,2025-03
+16,2,Bob Smith,Health,50.0,2025-03-20,Pharmacy,2025-03
+17,2,Bob Smith,Entertainment,25.0,2025-03-25,Streaming service,2025-03
+18,1,Alice Johnson,Food,200.0,2025-02-10,Bulk grocery,2025-02
+19,1,Alice Johnson,Utilities,130.0,2025-02-18,Electricity bill,2025-02
+20,2,Bob Smith,Transport,40.0,2025-02-05,Metro pass,2025-02
+21,2,Bob Smith,Food,85.0,2025-02-14,Grocery,2025-02
+24,1,Alice Johnson,Food,55.5,2025-04-30,Non-standard date format,2025-04

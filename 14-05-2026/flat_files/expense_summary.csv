@@ -1,0 +1,11 @@
+user_name,category,total_transactions,total_spending,average_spending,estimated_savings
+Alice Johnson,Health,1,75.0,75.0,49925.0
+Bob Smith,Food,3,290.0,96.66666666666667,49710.0
+Alice Johnson,Transport,2,95.0,47.5,49905.0
+Alice Johnson,Utilities,3,365.0,121.66666666666667,49635.0
+Bob Smith,Transport,2,100.0,50.0,49900.0
+Alice Johnson,Food,5,645.5,129.1,49354.5
+Bob Smith,Health,2,250.0,125.0,49750.0
+Bob Smith,Utilities,1,90.0,90.0,49910.0
+Bob Smith,Entertainment,2,40.0,20.0,49960.0
+Alice Johnson,Entertainment,1,30.0,30.0,49970.0
